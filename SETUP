@@ -1,0 +1,25 @@
+Global setup:
+
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email phpeque@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir behat-sample
+  cd behat-sample
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:phpeque/behat-sample.git OR https://phpeque@github.com/phpeque/behat-sample.git
+  git push -u origin master
+      
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:phpeque/behat-sample.git OR https://phpeque@github.com/phpeque/behat-sample.git
+  git push -u origin master
+      
